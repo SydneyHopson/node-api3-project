@@ -20,7 +20,7 @@ router.get('/', (req, res) => {
     res.status(500).json(error)
   })
 })
- // RETURN AN ARRAY WITH ALL THE USERS
+  // RETURN AN ARRAY WITH ALL THE USERS
 
 
  router.get('/:id', validateUserId, (req, res) => {
